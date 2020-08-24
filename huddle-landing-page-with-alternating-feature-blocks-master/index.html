@@ -6,7 +6,12 @@
   <link rel="stylesheet" type="text/css" href="custom.css"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/><!--CSS ANIMATION-->
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <script src="js/wow.min.js"></script><!--Animate on Scroll-->
+              <script>
+              new WOW().init();
+              </script>
 </head>
 <body>
   <nav>
@@ -15,12 +20,12 @@
   </nav>
   <div class="content-wrapper">
   <section class="hero">
-    <div class="text-box" id="hero-content">
+    <div class="text-box animate__animated animate__slideInLeft" id="hero-content">
       <h1>Build The Community Your Fans Will Love</h1>
       <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engae in genuine discussion.</p>
       <button class="secondary-button">Get Started For Free</button>
     </div>
-    <div class="image-box" id="hero-image">
+    <div class="image-box animate__animated animate__slideInRight" id="hero-image">
       <img id="mockups" src="images/illustration-mockups.svg">
     </div>
   </section>
@@ -50,7 +55,7 @@
       </div>
       <div class="image-box"><img src="images/illustration-your-users.svg"></div>
     </div>
-    <div class="modal">
+    <div class="modal wow animate__animated animate__slideInDown">
       <h2>Ready to Build Your Community?</h2>
       <button class="secondary-button">Get Started For Free</button>
     </div>

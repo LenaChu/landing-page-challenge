@@ -43,12 +43,17 @@ button{
     border: none;
     color: var(--very-dark-cyan);
 }
-
 .secondary-button{
     background-color: var(--primary-color);
     color: var(--very-pale-cyan);
     margin-top: 1.5em;
     box-shadow: 2px 3px 5px 3px hsl(0, 0%, 90%);
+}
+button:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+.secondary-button:hover{
+    background-color: hsl(322, 90%, 45%);
 }
 section{
     display: flex;
@@ -162,6 +167,8 @@ ion-icon{
     text-align:right;
     font-size: 12px;
 }
+
+
 
 
 /*Small Screens*/
