@@ -15,7 +15,7 @@
 </head>
 <body>
   <nav>
-    <a href="#"><img src="images/logo.svg"></a>
+    <a class="logo-link" href="#"><img id="color-logo" src="images/logo.svg" alt="Logo"></a>
     <button class="primary-button">Try it Free</button>
   </nav>
   <div class="content-wrapper">
@@ -26,36 +26,36 @@
       <button class="secondary-button">Get Started For Free</button>
     </div>
     <div class="image-box animate__animated animate__slideInRight" id="hero-image">
-      <img id="mockups" src="images/illustration-mockups.svg">
+      <img id="mockups" src="images/illustration-mockups.svg" alt="Mockups Illustration">
     </div>
   </section>
   <section class="main-content">
-    <div class="card">
+    <div class="card column-reverse">
       <div class="text-box">
         <h2>Grow Together</h2>
         <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
       </div>
       <div class="image-box">
-        <img src="images/illustration-grow-together.svg">
+        <img src="images/illustration-grow-together.svg" alt="Grouw Together Illustration">
       </div>
     </div>
     <div class="card">
       <div class="image-box">
-        <img src="images/illustration-flowing-conversation.svg">
+        <img src="images/illustration-flowing-conversation.svg" alt="Flowing Conversation Illustration">
       </div>
       <div class="text-box">
         <h2>Flowing Conversations</h2>
         <p>You wouldn't paginate a conversation in real infe, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
       </div>
     </div>
-    <div class="card">
+    <div class="card column-reverse">
       <div class="text-box">
         <h2>Your Users</h2>
         <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
       </div>
-      <div class="image-box"><img src="images/illustration-your-users.svg"></div>
+      <div class="image-box"><img src="images/illustration-your-users.svg" alt="Your Users Illustration"></div>
     </div>
-    <div class="modal wow animate__animated animate__slideInDown">
+    <div class="modal">
       <h2>Ready to Build Your Community?</h2>
       <button class="secondary-button">Get Started For Free</button>
     </div>
@@ -63,26 +63,26 @@
 </div>
   <footer>
     <div class="footer-wrapper">
-      <img src="images/logo-white.svg" id="white-logo">
-      <div class="flex-row">
+      <img src="images/logo-white.svg" id="white-logo" alt="White Logo">
+      <div class="flex-row column-in-small-screen">
         <div class="flex-column" id="first-column">
           <div class="flex-row sub-row">
-            <div>
-              <img src="images/icon-location.svg">
+            <div class="icon-container">
+              <img id="location" src="images/icon-location.svg">
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt faucibus nisi, sed tristique nisi pellentesque in. Donec risus massa, aliquam a quam id</p>
           </div>
           <div class="flex-row sub-row">
-            <div>
-              <img src="images/icon-phone.svg">
+            <div class="icon-container">
+              <img id="phone" src="images/icon-phone.svg">
             </div>
             <p>+1-543-123-4567</p>
           </div>
           <div class="flex-row sub-row">
-            <div>
-              <img src="images/icon-email.svg">
+            <div class="icon-container">
+              <img id="email" src="images/icon-email.svg">
             </div>
-            <p>example@huddle.com</p>
+            <p><a href="#">example@huddle.com</a></p>
           </div>
         </div>
         <div class="flex-column">
@@ -96,10 +96,10 @@
           <a href="#">Contact Us</a>
         </div>
         <div class="flex-column">
-          <div>
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-twitter"></ion-icon>
-            <ion-icon name="logo-instagram"></ion-icon>
+          <div class="flex-row sub-row icon-row">
+            <a class="icon-link" id="facebook-icon" href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a class="icon-link" id="twitter-icon" href="https://www.twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a class="icon-link" id="instagram-icon" href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
           </div>
         </div>
       </div>   
