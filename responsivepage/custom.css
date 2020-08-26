@@ -97,6 +97,7 @@ img{
         margin: 1.5em 0;
         padding: 5em 3em;
         height: 18em;
+        align-items: center;
     }
     .text-box{
         margin-left: 5em;
