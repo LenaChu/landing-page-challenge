@@ -1,3 +1,6 @@
+html,body{
+    overflow-x: hidden;
+}
 body{
     --primary-color: hsl(322, 100%, 66%);
     --very-pale-cyan: hsl(192, 100%, 96%);
@@ -11,6 +14,7 @@ body{
     line-height: 1.6;
     margin:0;
     padding: 0;
+    position: relative;
     
 }
 h1, h2, h3, h4{
