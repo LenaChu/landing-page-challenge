@@ -34,6 +34,9 @@ img{
         padding: 3em 4em 0 4em;
         height: 5em;
     }
+    .logo-link{
+        width: 20%;
+    }
     .content-wrapper{
         padding: var(--padding-x);
     }
@@ -199,6 +202,9 @@ img{
         padding: 2em;
         height: 4em;
     }
+    .logo-link{
+        width: 25%;
+    }
  
     .content-wrapper{
         padding: 0 3em;
@@ -295,6 +301,12 @@ img{
         padding: 2em;
         height: 4em;
     }
+    .logo-link{
+        width: 35%;
+    }
+    button{
+        padding: 10px 25px;
+    }
     .content-wrapper{
         padding: 0 2em;
     }
@@ -349,8 +361,8 @@ img{
         flex: 0 0 auto;
     }
     .flex-row>p{
-        max-width: 35em;
-        min-width: 20em;
+        max-width: 80%;
+        min-width: 20%;
     }
     .icon-container{
         flex-basis: 1.5em;
@@ -385,7 +397,7 @@ img{
         height: 4em;
     }
     .logo-link{
-        width: 50%;
+        width: 35%;
     }
     button{
         font-size:14px;
@@ -446,8 +458,8 @@ img{
         flex: 0 0 auto;
     }
     .flex-row>p{
-        max-width: 35em;
-        min-width: 10em;
+        max-width: 80%;
+        min-width: 20%;
     }
     .icon-container{
         flex-basis: 1.5em;
